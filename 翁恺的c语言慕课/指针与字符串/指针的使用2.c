@@ -21,3 +21,4 @@ void minmax(int a[],int len,int *max,int *min)
         }
     }
 }
+/*函数返回运算的状态，结果通过指针返回*/
