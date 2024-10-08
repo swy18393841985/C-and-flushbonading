@@ -6,7 +6,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
-
 struct date{
     int month;
     int day;
