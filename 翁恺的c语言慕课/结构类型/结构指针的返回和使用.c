@@ -26,6 +26,7 @@ int main()
     return 0;
 }
 
+
 //void getStruct(struct point *p)
 struct point* getStruct(struct point *p)
 {
