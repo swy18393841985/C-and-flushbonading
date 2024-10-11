@@ -11,10 +11,8 @@ struct date{
     int day;
     int year;
 };
-
 bool isLeap(struct date d);
 int numberOfDays(struct date d);
-
 int main()
 {
     struct date today,tomorrow;
