@@ -8,6 +8,7 @@ typedef struct _list{
 }List;
 
 void add(List *pList,int number);
+void print(List *pList);
 
 int main()
 {
@@ -20,6 +21,7 @@ int main()
             add(&list,number);      
         }
     }while(number!=-1);
+    print(&list);
     return 0;
 } 
 
@@ -41,4 +43,12 @@ void add(List *pList,int number)
         pList->tail=p;
     }
        
+}
+void print(List *pList)
+{
+    Node *p;
+    for(p=pList->head;p;p=p->next){
+        printf("%d\t",p->value);
+    }
+    printf("\n");
 }
