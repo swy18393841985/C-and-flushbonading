@@ -8,5 +8,6 @@ int main()
     int a=5;
     int b=6;
     printf("%d\n",max(a,b));
+    printf("%f\n",gAll);
     return 0;
 }
