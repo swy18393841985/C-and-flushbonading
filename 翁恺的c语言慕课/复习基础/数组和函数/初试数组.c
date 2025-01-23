@@ -33,3 +33,5 @@ int main()
     }
     return 0;
 }
+
+//很好的c知识点总结 https://github.com/wangdoc/clang-tutorial
