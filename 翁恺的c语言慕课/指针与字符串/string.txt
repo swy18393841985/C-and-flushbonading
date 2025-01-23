@@ -1,0 +1,1 @@
+https://github.com/wangdoc/clang-tutorial/blob/main/docs/string.md
