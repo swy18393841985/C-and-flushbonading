@@ -3,7 +3,7 @@
 /*函数名(参数)*/
 #include<stdio.h>
 
-void SUM(int begin,int end);
+void SUM(int begin,int end);//函数原型
 
 int main()
 {
