@@ -23,8 +23,7 @@ int main()
 void getList(Student aStu[],int number)
 {
     char format[STR_LEN];
-    sprintf(format,"%%%ds",STR_LEN-1);
-    //%19s
+    sprintf(format,"%%%ds",STR_LEN-1);//%19s
 
     int i;
     for (i=0;i<number;i++){
